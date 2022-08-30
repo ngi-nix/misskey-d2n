@@ -1,7 +1,9 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    dream2nix.url = "github:nix-community/dream2nix";
+    # TODO: switch to original URI when #275 gets merged
+    dream2nix.url = "github:tgunnoe/dream2nix/gitplus-version-fix";
+
     misskey = {
       url = "github:misskey-dev/misskey?submodules=true";
       flake = false;
