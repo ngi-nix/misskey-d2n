@@ -9,10 +9,13 @@
   };
 
   outputs = {self, nixpkgs, dream2nix, misskey}:
-    dream2nix.lib.makeFlakeOutputs {
+    (dream2nix.lib.makeFlakeOutputs {
       systems = ["x86_64-linux"];
       config.projectRoot = ./.;
       packageOverrides = {};
       source = misskey;
+    }) // {
+      nixosModules.misskey = import ./nixosModule self;
+      nixosModules.default = self.nixosModules.misskey;
     };
 }
