@@ -167,8 +167,8 @@ in {
     };
 
     systemd.tmpfiles.rules = [
-      "d /run/misskey/    0750 misskey misskey - -"
-      "d ${cfg.settings.filesPath}  0750 misskey misskey - -"
+      "d /run/misskey/ 0750 misskey misskey - -"
+      "d ${cfg.settings.filesPath} 0750 misskey misskey - -"
     ];
 
     systemd.services.misskey = {
@@ -189,17 +189,14 @@ in {
         ''
         + optionalString (cfg.redis.passwordFile != null) ''
           ${pkgs.replace-secret}/bin/replace-secret '@REDIS_PASSWORD@' "${cfg.redis.passwordFile}" /run/misskey/default.yml
-        ''
-        + ''
-          ${misskey}/bin/misskey-migrate
         '';
 
       serviceConfig = {
         User = "misskey";
         Group = "misskey";
 
-        WorkingDirectory = "${misskey}/libexec/misskey";
-        ExecStart = "${misskey}/bin/misskey";
+        WorkingDirectory = "${misskey}/lib/node_modules/misskey";
+        ExecStart = "${pkgs.nodejs}/bin/npm start";
       };
     };
   };
