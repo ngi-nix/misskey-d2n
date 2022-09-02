@@ -70,16 +70,15 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1661797433,
-        "narHash": "sha256-h//MwkoyAyuz4ov+0/FTPSH+aGJocWz8/qAY4Ko1544=",
-        "owner": "tgunnoe",
+        "lastModified": 1662083074,
+        "narHash": "sha256-GL4/CLKPYUzkKD1l7oi2XB+vi3z4xGpCVLDdG3tRqvs=",
+        "owner": "nix-community",
         "repo": "dream2nix",
-        "rev": "10e4617f54e72c00a1ea8c32ab004c34ff4151b3",
+        "rev": "c6c039fcc6abdf4d828b940b576944a224cf8622",
         "type": "github"
       },
       "original": {
-        "owner": "tgunnoe",
-        "ref": "gitplus-version-fix",
+        "owner": "nix-community",
         "repo": "dream2nix",
         "type": "github"
       }
@@ -172,11 +171,11 @@
     "misskey": {
       "flake": false,
       "locked": {
-        "lastModified": 1661585654,
-        "narHash": "sha256-7A9ZuWPTyTHg6CwEb1G5oaqBbcNg48faeOzDCx3lYA4=",
+        "lastModified": 1662045751,
+        "narHash": "sha256-v9TmgU5qev344YzROdRR8V4xoPonFLqQ7lKSWKsmghg=",
         "owner": "misskey-dev",
         "repo": "misskey",
-        "rev": "47b2e56967744fd9c09a853c8044e3a448783ec5",
+        "rev": "25f4c8688abdd23b93038bf8339ac0eca0f63330",
         "type": "github"
       },
       "original": {
@@ -187,11 +186,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1661628722,
-        "narHash": "sha256-oR/7NhG7pPkACToUtaaT6hH+rONE2z5/4NzjoUwEZt8=",
+        "lastModified": 1662019588,
+        "narHash": "sha256-oPEjHKGGVbBXqwwL+UjsveJzghWiWV0n9ogo1X6l4cw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "324c8aaf25b2f2027af7798e5582ce3040a793b6",
+        "rev": "2da64a81275b68fdad38af669afeda43d401e94b",
         "type": "github"
       },
       "original": {
