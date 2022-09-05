@@ -26,11 +26,11 @@
     "crane": {
       "flake": false,
       "locked": {
-        "lastModified": 1654444508,
-        "narHash": "sha256-4OBvQ4V7jyt7afs6iKUvRzJ1u/9eYnKzVQbeQdiamuY=",
+        "lastModified": 1661875961,
+        "narHash": "sha256-f1h/2c6Teeu1ofAHWzrS8TwBPcnN+EEu+z1sRVmMQTk=",
         "owner": "ipetkov",
         "repo": "crane",
-        "rev": "db5482bf225acc3160899124a1df5a617cfa27b5",
+        "rev": "d9f394e4e20e97c2a60c3ad82c2b6ef99be19e24",
         "type": "github"
       },
       "original": {
@@ -70,11 +70,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1662083074,
-        "narHash": "sha256-GL4/CLKPYUzkKD1l7oi2XB+vi3z4xGpCVLDdG3tRqvs=",
+        "lastModified": 1662365249,
+        "narHash": "sha256-NSQjtPVHpDcPAFMAq5fhcNqF5bTRBq4R32+xLQEINGM=",
         "owner": "nix-community",
         "repo": "dream2nix",
-        "rev": "c6c039fcc6abdf4d828b940b576944a224cf8622",
+        "rev": "02f8a119c1c5a4d45893b71588a257a9d3f9b79e",
         "type": "github"
       },
       "original": {
@@ -171,15 +171,16 @@
     "misskey": {
       "flake": false,
       "locked": {
-        "lastModified": 1662045751,
-        "narHash": "sha256-v9TmgU5qev344YzROdRR8V4xoPonFLqQ7lKSWKsmghg=",
+        "lastModified": 1659926344,
+        "narHash": "sha256-XYppEWdwiNqb/EnOQ1sGmBBGwMYNhXX0KWOemiMj6/c=",
         "owner": "misskey-dev",
         "repo": "misskey",
-        "rev": "25f4c8688abdd23b93038bf8339ac0eca0f63330",
+        "rev": "46ec0303b7e3a20c0762f49b205c901d0a54b9d6",
         "type": "github"
       },
       "original": {
         "owner": "misskey-dev",
+        "ref": "12.118.1",
         "repo": "misskey",
         "type": "github"
       }
