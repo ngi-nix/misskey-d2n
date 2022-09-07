@@ -153,6 +153,18 @@
         "type": "github"
       }
     },
+    "libvips": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-2T9mGV6IfdWELOnnRr+S63m8G68kZ/Ke2EXtH3+dTFE=",
+        "type": "file",
+        "url": "https://github.com/lovell/sharp-libvips/releases/download/v8.13.1/libvips-8.13.1-linux-x64.tar.br"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/lovell/sharp-libvips/releases/download/v8.13.1/libvips-8.13.1-linux-x64.tar.br"
+      }
+    },
     "mach-nix": {
       "flake": false,
       "locked": {
@@ -171,15 +183,15 @@
     "misskey": {
       "flake": false,
       "locked": {
-        "lastModified": 1662045751,
-        "narHash": "sha256-v9TmgU5qev344YzROdRR8V4xoPonFLqQ7lKSWKsmghg=",
-        "owner": "misskey-dev",
+        "lastModified": 1662557510,
+        "narHash": "sha256-j/Yabe9tq3iG76Gb9F8rnI9mwQ7oBLs7llClTGQJ4CE=",
+        "owner": "ngi-nix",
         "repo": "misskey",
-        "rev": "25f4c8688abdd23b93038bf8339ac0eca0f63330",
+        "rev": "efee19c8f650ec824c6a410fec2226b5671b4f40",
         "type": "github"
       },
       "original": {
-        "owner": "misskey-dev",
+        "owner": "ngi-nix",
         "repo": "misskey",
         "type": "github"
       }
@@ -197,6 +209,23 @@
         "owner": "NixOS",
         "ref": "nixos-unstable",
         "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "node-gyp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1657760479,
+        "narHash": "sha256-tAo8uSQ6EGxb0WOpABoRQwF3m65RNw2z8JUHxivKuBc=",
+        "owner": "nodejs",
+        "repo": "node-gyp",
+        "rev": "5f9d86d731af5f2efe1cdadc5461932e182dd9af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nodejs",
+        "ref": "v9.1.0",
+        "repo": "node-gyp",
         "type": "github"
       }
     },
@@ -245,8 +274,10 @@
     "root": {
       "inputs": {
         "dream2nix": "dream2nix",
+        "libvips": "libvips",
         "misskey": "misskey",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "node-gyp": "node-gyp"
       }
     },
     "rust-analyzer-src": {
